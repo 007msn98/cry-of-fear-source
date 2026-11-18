@@ -16,10 +16,6 @@ Créditos à Valve, pelo GoldSrc e ao Team Psykskallar, pela obra insólita obra
 
 ## Como instalar no Garry’s Mod
 
-**O pacote jogável ainda não tem download público.** O botão **Code → Download ZIP** baixa apenas o código-fonte e os testes deste repositório. O pacote completo inclui mapas convertidos e recursos do jogo original.
-
-Como instalar:
-
 1. Baixe [cof-coop-campanha-v10-addon.zip](https://github.com/007msn98/cry-of-fear-source/releases/download/coop-v10/cof-coop-campanha-v10-addon.zip), ou vai ali em releases, depois assets e baixe cof-coop-campanha-v10-addon.zip.
 2. Extraia as pastas cof_coop_start e cof_source_menu para Steam\steamapps\common\GarrysMod\garrysmod\addons
 4. No Workshop, instale e ative [Cry of Fear Weapon Pack, de Полковник](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=Cry+of+Fear+Weapon+Pack), [Cry Of Fear SNPCs](https://steamcommunity.com/sharedfiles/filedetails/?id=449315743) e [VJ Base](https://steamcommunity.com/sharedfiles/filedetails/?id=131759821).
