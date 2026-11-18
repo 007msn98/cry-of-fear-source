@@ -25,6 +25,7 @@ Como instalar:
 4. No Workshop, instale e ative [Cry of Fear Weapon Pack, de Полковник](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=Cry+of+Fear+Weapon+Pack), [Cry Of Fear SNPCs](https://steamcommunity.com/sharedfiles/filedetails/?id=449315743) e [VJ Base](https://steamcommunity.com/sharedfiles/filedetails/?id=131759821).
 
 Como jogar:
+
 Abra o GMod, escolha **Iniciar novo jogo** e selecione o mapa `cof_coop_start`.
 Para jogar em coop, configure a sessão como multiplayer antes de iniciar o mapa. 
 Assim que iniciar, verá 2 botões, o da esquerda é pra ouvir e ler o texto de introdução, aguardar 10 segundo e spawnar na vila. O da direita é pra spawnar direto na vila, sem ouvir a introdução.
