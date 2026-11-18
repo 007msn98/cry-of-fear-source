@@ -1,0 +1,30 @@
+# Dados locais e configurações pessoais
+/local/
+/.codex/
+/.agents/
+/graft/
+/.trail/
+.env
+.env.*
+*.log
+*.dmp
+*.pem
+*.key
+__pycache__/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Mapas convertidos e saídas de build
+/mapsrc/
+/build/
+/dist/
+*.bsp
+*.vmf
+*.gma
+*.zip
+*.dll
+*.exe
+*.vtf
+*.mdl
+*.wav
