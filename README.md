@@ -30,7 +30,8 @@ Assim que iniciar, verá 2 botões, o da esquerda é pra ouvir e ler o texto de 
 
 ## Estado do projeto
 
-Por enquanto foco é o cooperativo. O pacote v10 reúne 30 mapas e incorpora a última revisão do lago. Essa revisão passou pelas verificações offline e ainda precisa de reteste no GMod. O single-player M3 segue em uma trilha separada. # Ainda não testado com mais de um jogador.
+Por enquanto foco é o cooperativo. O pacote v10 reúne 30 mapas e incorpora a última revisão do lago. Essa revisão passou pelas verificações offline e ainda precisa de reteste no GMod. O single-player M3 segue em uma trilha separada.
+# Ainda não testado com mais de um jogador.
 
 ## Créditos do port
 
