@@ -32,6 +32,8 @@ When the map starts, you’ll see two buttons. Press the **left button** to list
 
 For now, the focus is co-op. The v10 package brings together 30 maps and includes the latest lake revision. That revision passed offline checks and still needs a GMod retest. Single-player M3 is a separate track.
 
+### Not yet tested with more than one player.
+
 ## Port credits
 
 - **007msn98** — project concept, port development and direction, and campaign playtesting.
