@@ -20,7 +20,7 @@ Créditos à Valve, pelo GoldSrc e ao Team Psykskallar, pela obra insólita obra
 2. Extraia as pastas cof_coop_start e cof_source_menu para Steam\steamapps\common\GarrysMod\garrysmod\addons
 4. No Workshop, instale e ative [Cry of Fear Weapon Pack, de Полковник](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=Cry+of+Fear+Weapon+Pack), [Cry Of Fear SNPCs](https://steamcommunity.com/sharedfiles/filedetails/?id=449315743) e [VJ Base](https://steamcommunity.com/sharedfiles/filedetails/?id=131759821).
 
-Como jogar:
+## Como jogar
 
 Abra o GMod, escolha **Iniciar novo jogo** e selecione o mapa `cof_coop_start`.
 Para jogar em coop, configure a sessão como multiplayer antes de iniciar o mapa. 
