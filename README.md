@@ -1,30 +1,40 @@
 # Cry of Fear: Source
 
-Projeto de fã para levar a campanha cooperativa original de Cry of Fear ao Garry’s Mod (Source 1). O trabalho começa em `cof_campaign_01` e preserva o playermodel escolhido no GMod. Não é um gamemode novo nem um projeto oficial.
+**🇧🇷 [Português (Brasil)](README.md) · 🇺🇸 [English](README.en.md)**
 
-Este repositório contém **o código Lua do coop e seus testes**, não um addon jogável. O código cobre a introdução individual (ver ou pular), as interações e transições de mapa, o inventário entre trechos, a ambientação e as regras do lago para o Watro e o dano na água.
+Sou grande fã da obra do Team Psykskallar, da saga Half-Life e, consequentemente, de GMod.
 
-## Estado
+Por muito tempo quis jogar Cry of Fear em Source1, pra poder jogar em GMod. Mas no máximo que eu obtive, foram alguns mapas criados pela comunidade.
 
-- **Coop:** prioridade do projeto. A última compilação de teste do lago é a v10, com validação offline registrada e reteste no GMod pendente.
-- **Single-player M3:** trilha separada, não incluída nesta publicação.
+Esse ano, por meio do ChatGPT Codex e ferramentas como o REA (e 3 contas com o plus grátis de 1 mês), vi a possibilidade de trazer os mapas de COF como addons para o GMod.
 
-## Dependências
+Através de muitas tentativas com o Codex, consegui fazer os mapas coop funcionarem (com 90% de perfeição. Ainda falta muitos ajustes, mas consegui zerar a campanha coop inteira).
 
-Os testes usam simulações das interfaces do motor. Para jogar, são necessários o Garry’s Mod, os mapas compilados e seus recursos, além do Cry of Fear Weapon Pack, do Cry of Fear SNPCs e da VJ Base. Esses arquivos e addons não são distribuídos aqui. Clonar o repositório, sozinho, não instala a campanha.
+Planejo fazer o jogo inteiro perfeitamente jogável pelo GMod.
 
-## Testes
+Créditos à Valve, pelo GoldSrc e ao Team Psykskallar, pela obra insólita obra Cry of Fear.
 
-A partir da raiz, execute cada cenário com Lua 5.1 ou LuaJIT:
+## Como instalar no Garry’s Mod
 
-```sh
-for test in tests/coop_*.lua; do
-  lua "$test" || exit 1
-done
-```
+**O pacote jogável ainda não tem download público.** O botão **Code → Download ZIP** baixa apenas o código-fonte e os testes deste repositório. O pacote completo inclui mapas convertidos e recursos do jogo original.
 
-Esses cenários não iniciam o GMod nem validam renderização, áudio ou desempenho em jogo.
+Se você já tem o pacote completo `cof-coop-campanha-v10-addon.zip`:
 
-## Créditos
+1. Feche o Garry’s Mod.
+2. Na Steam, abra **Biblioteca → Garry’s Mod → Gerenciar → Explorar arquivos locais**. Entre em `garrysmod/addons/`.
+3. Extraia o ZIP ali. A pasta de mapas deve ficar em `garrysmod/addons/cof_coop_start/maps/`. O ZIP também inclui a pasta `cof_source_menu`. Não deixe essas pastas dentro de uma pasta intermediária com o nome do ZIP. Se for atualizar, faça backup da versão antiga e mova-a para fora de `addons/` para evitar duplicatas.
+4. No Workshop, instale e ative [Cry of Fear Weapon Pack, de Полковник](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=Cry+of+Fear+Weapon+Pack), [Cry Of Fear SNPCs](https://steamcommunity.com/sharedfiles/filedetails/?id=449315743) e [VJ Base](https://steamcommunity.com/sharedfiles/filedetails/?id=131759821). Esses três addons não vêm no ZIP.
+5. Abra o GMod, escolha **Iniciar novo jogo** e selecione o mapa `cof_coop_start`. Para jogar em coop, configure a sessão como multiplayer antes de iniciar o mapa.
 
-Cry of Fear e seus recursos são da Team Psykskallar e dos criadores creditados. Garry’s Mod, Source e os addons externos pertencem a seus respectivos autores. Este repositório não concede direitos sobre material de terceiros.
+## Estado do projeto
+
+O foco é o cooperativo. O pacote v10 reúne 30 mapas e incorpora a última revisão do lago. Essa revisão passou pelas verificações offline e ainda precisa de reteste no GMod. O single-player M3 segue em uma trilha separada.
+
+## Créditos do port
+
+- **007msn98** — concepção do projeto, desenvolvimento do port, direção e testes jogando a campanha.
+- **ChatGPT e Codex (OpenAI)** — apoio à implementação, investigação e testes automatizados.
+- **[REA](https://github.com/morluto/rea)** — ferramenta de análise de binários usada para conferir comportamentos do original.
+- **Полковник** — Cry of Fear Weapon Pack. **DrVrej** e colaboradores — Cry Of Fear SNPCs e VJ Base, dependências externas do port.
+
+Este é um projeto de fã, sem afiliação com a Team Psykskallar, a Valve ou a Facepunch.
