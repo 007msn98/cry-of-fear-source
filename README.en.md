@@ -16,17 +16,15 @@ Thanks to Valve for GoldSrc and to Team Psykskallar for the wonderfully strange 
 
 ## How to install in Garry’s Mod
 
-**Code → Download ZIP** downloads only the source code and tests. To play, use the addon ZIP under **Assets** on the [Co-op v10 release page](https://github.com/007msn98/cry-of-fear-source/releases/tag/coop-v10).
-
-### Install
-
-1. Download [cof-coop-campanha-v10-addon.zip](https://github.com/007msn98/cry-of-fear-source/releases/download/coop-v10/cof-coop-campanha-v10-addon.zip).
+1. Download [cof-coop-campanha-v10-addon.zip](https://github.com/007msn98/cry-of-fear-source/releases/download/coop-v10/cof-coop-campanha-v10-addon.zip), or find it under **Assets** on the [Co-op v10 release page](https://github.com/007msn98/cry-of-fear-source/releases/tag/coop-v10).
 2. Extract the `cof_coop_start` and `cof_source_menu` folders to `Steam\steamapps\common\GarrysMod\garrysmod\addons`.
 3. Subscribe to and enable [Cry of Fear Weapon Pack by Полковник](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=Cry+of+Fear+Weapon+Pack), [Cry Of Fear SNPCs](https://steamcommunity.com/sharedfiles/filedetails/?id=449315743), and [VJ Base](https://steamcommunity.com/sharedfiles/filedetails/?id=131759821).
 
-### Play
+## How to play
 
-Open GMod, choose **Start New Game**, and select `cof_coop_start`. To play co-op, set the session to multiplayer before starting the map.
+Open GMod, choose **Start New Game**, and select `cof_coop_start`.
+
+To play co-op, set the session to multiplayer before starting the map.
 
 When the map starts, you’ll see two buttons. Press the **left button** to listen to the introduction and read the text. You’ll spawn in the village 10 seconds after the audio ends. Press the **right button** to skip the introduction and spawn in the village immediately.
 
