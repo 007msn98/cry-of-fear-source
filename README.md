@@ -28,7 +28,7 @@ Se você já tem o pacote completo `cof-coop-campanha-v10-addon.zip`:
 
 ## Estado do projeto
 
-O foco é o cooperativo. O pacote v10 reúne 30 mapas e incorpora a última revisão do lago. Essa revisão passou pelas verificações offline e ainda precisa de reteste no GMod. O single-player M3 segue em uma trilha separada.
+Por enquanto foco é o cooperativo. O pacote v10 reúne 30 mapas e incorpora a última revisão do lago. Essa revisão passou pelas verificações offline e ainda precisa de reteste no GMod. O single-player M3 segue em uma trilha separada.
 
 ## Créditos do port
 
